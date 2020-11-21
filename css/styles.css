@@ -1,0 +1,186 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #F2F2F2;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color:  #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #11999E;
+}
+
+hr {
+  border: dotted #C0C0C0 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+a {
+  color:  #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C0C0C0;
+}
+
+/********CLASS SELECTORS**********/
+.hero-text {
+  color: #F2F2F2;
+}
+
+.top-container {
+  background-image: linear-gradient(#038C5A, #F2F2F2);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #F2F2F2;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-image: linear-gradient(#F2F2F2, #04BF7B);
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  margin: auto auto 50px auto;
+}
+
+.skills {
+  margin: 50px auto 50px auto;
+}
+
+.profilepic {
+  width: 15%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill-programming {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.programming {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.adobexd {
+  width: 10%;
+}
+
+.adobeai {
+  width: 10%;
+}
+
+.adobeid {
+  width: 10%;
+}
+
+.figma {
+  width: 10%;
+}
+
+.html-css {
+  width: 25%;
+}
+
+.skill-digital-marketing {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.digital-marketing {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 50px auto auto auto;
+}
+
+.copyrights {
+  color: #F2F2F2;
+  font-size: 0.75rem;
+}
+
+.recognitions {
+  color: #F2F2F2;
+  padding: 10px 0 10px;
+}
+
+.BUTTON_CONTACT {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 5px;
+   line-height: 5px;
+   color: #F2F2F2;
+   font-family: Verdana;
+   width: 175px;
+   font-size: 24px;
+   padding: 20px;
+   background-color: #038C5A;
+   text-shadow: 1px 1px 60px #000000;
+   border: solid #038C5A 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_CONTACT:hover {
+   background: #05F29B;
+   border: solid #05F29B 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
